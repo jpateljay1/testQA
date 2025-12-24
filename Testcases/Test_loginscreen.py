@@ -25,6 +25,10 @@ class Welcomescreentestcase(unittest.TestCase):
 
     def test_demo(self):
         print("Demo commit")
+
+    def test_demo1(self):
+        print("Demo commit1")
+
     def tearDown(self):
         self.driver.quit()
         logger.info('*****Browser closed.*****')
