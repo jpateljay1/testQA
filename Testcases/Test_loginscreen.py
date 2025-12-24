@@ -22,6 +22,9 @@ class Welcomescreentestcase(unittest.TestCase):
         logger.info('Starting test: Verifying UIelements on Welcomescreen')
         UIelements = LoginPage(self.driver)
         UIelements.narayanalogoisdisplayed()
+
+    def test_demo(self):
+        print("Demo commit")
     def tearDown(self):
         self.driver.quit()
         logger.info('*****Browser closed.*****')
